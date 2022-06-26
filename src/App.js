@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import data from "./data";
 
 
-function App() {
+export default function App() {
 
   const cards = data.map(item => {
     return (
@@ -24,4 +24,3 @@ function App() {
   );
 }
 
-export default App;
